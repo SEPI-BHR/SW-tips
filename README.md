@@ -10,8 +10,8 @@ I found this link very useful. [https://www.cyberciti.biz/faq/ubuntu-linux-insta
 - After installing GPU drives you can verify it using this command: `nvidia-smi`
 - then I used this command ro install CUDA toolkit: `sudo apt-get install nvidia-cuda-toolkit`
 - After installing GPU drives you can verify it using this command: `nvcc --version`
-- However, if you've made changes and want to start with a clean slate before following the provided instructions, you can uninstall the GPU drivers, CUDA Toolkit, cuDNN, and any deep learning frameworks you've installed. Here's a step-by-step guide:
-  `sudo apt-get purge nvidia*` 
+- However, if you've made changes and want to start with a clean slate before following the provided instructions, you can uninstall the GPU drivers, CUDA Toolkit, cuDNN, and any deep learning frameworks you've installed. Here's a step-by-step guide:  
+  `sudo apt-get purge nvidia` 
   `sudo apt-get autoremove` 
   `sudo apt-get autoclean`
   --------------------------------------------------------------------------------------------------------------
